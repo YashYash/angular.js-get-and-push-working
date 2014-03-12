@@ -1,0 +1,10 @@
+<div>
+    {{ title }}
+</div>
+
+<div ng-repeat="student in students">
+    Name: {{ student.first_name }} {{ student.last_name }}
+    <div ng-repeat="project in projects">
+        {{ project.name }}
+    </div>
+</div>

@@ -1,0 +1,12 @@
+<div>
+
+    <a href="#/student">
+        Go to Student Page
+    </a>
+
+    <div ng-repeat="class in classes">
+        <a href="#/class/{{ class.id }}">
+            View {{ class.title }}'s page
+        </a>
+    </div>
+</div>
